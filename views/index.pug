@@ -1,0 +1,17 @@
+doctype html
+html
+  head
+    title Entourloupweb
+  body
+    div(align='center')
+        img(src="/images/logo.png", alt="" width='30%' height='30%')
+        h4 Bienvenue sur le site personnel du Respo Hacker. Si vous trouvez le code, le gobelet sera votre.
+        h6 PS: Pas de chiffres, que des lettres. C'est en lien avec la liste.
+        h6 PS2: C'est devant vos yeux bande de bougnoufs.
+        h6 PS3: Quelqu'un a trouvé l'ecocup. Mais vous pouvez toujours chercher le code pour vous amuser!
+        form(id='form' action='')
+            input(type="text" id='code' placeholder="Code" autocomplete="off")
+            button Décrypter
+        h4(id='result')
+    script(src="/socket.io/socket.io.js")
+    script(src='/js/entourlouweb.js')
